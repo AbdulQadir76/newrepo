@@ -1,0 +1,54 @@
+<html>
+<head>
+<title>image positions</title>
+
+<style>
+
+.parent { 
+
+        position: relative;
+        top: 0;
+        left: 0;
+      }
+	  .modify {
+	  position:absolute;
+	  width: 300px;
+	  height: 100px;
+	  
+	  top:150px;
+	  left:80px;
+	  }
+     
+	  .image1 {
+        position: relative;
+        top: 50;
+        left: 0;
+        border: 1px solid #000000;
+      }
+      
+
+	  .image2 {
+        position: absolute;
+        top: 150px;
+        left: 80px;
+        border: 1px dotted #000000;
+	
+      }
+	  .image3 {
+	  position: relative;
+	  top: 50px;
+	  }
+
+
+</style>
+     
+</head>
+<body>
+
+<div class="parent">
+
+<img class="image1" src="images/azmatr.jpg" class="modify" style="width:300; height:200">
+<img class="image2" src="images/quran.jpg" class="modify">
+<img class="image3" src="rose.jpeg" class="modify">
+</div>
+</body>
